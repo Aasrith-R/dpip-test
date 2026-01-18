@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/dpip-test/',   // <-- REQUIRED for GitHub Pages repo deployment
   plugins: [
     vue(),
     vueDevTools(),
